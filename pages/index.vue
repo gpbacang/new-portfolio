@@ -340,15 +340,37 @@
       <div class="container">
         <div>
           <div
-            class="flex-row align-items-center"
+            class="columns flex-row align-items-center"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div style="font-size:8rem;opacity:0.3;">03</div>
-            <span
-              class="is-size-1 is-uppercase has-text-white-ter has-margin-left-10"
-              >Contact</span
-            >
+            <div class="column is-2" style="font-size:8rem;opacity:0.3;">
+              03
+            </div>
+            <div class="column is-size-1 is-uppercase has-text-white-ter">
+              Contact
+            </div>
+          </div>
+          <div
+            class="columns"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <div class="column is-2"></div>
+            <div class="column is-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              vestibulum vestibulum mi sit amet pharetra. Pellentesque commodo,
+              diam sit amet tristique tincidunt
+            </div>
+            <div class="column is-7 has-text-justified">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              vestibulum vestibulum mi sit amet pharetra. Pellentesque commodo,
+              diam sit amet tristique tincidunt, lectus tellus facilisis ipsum,
+              non commodo lorem lectus non ligula. Cras convallis est facilisis,
+              faucibus nulla eget, faucibus nisl. Fusce fringilla pretium
+              lectus, at pharetra ex malesuada tempor.
+            </div>
           </div>
         </div>
       </div>
