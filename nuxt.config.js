@@ -41,11 +41,40 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/pwa',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    'nuxt-fontawesome'
   ],
 
   styleResources: {
     scss: ['~assets/main.scss']
+  },
+
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons', // Solid icons
+        icons: [
+          'faCookieBite',
+          'faCommentDots',
+          'faEnvelope',
+          'faGrinWink',
+          'faHeart',
+          'faAt'
+        ]
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons', // Brand icons
+        icons: [
+          'faDev',
+          'faFacebook',
+          'faTwitter',
+          'faInstagram',
+          'faYoutube',
+          'faGithub',
+          'faLinkedinIn'
+        ]
+      }
+    ]
   },
   /*
    ** Build configuration
