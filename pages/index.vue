@@ -473,6 +473,21 @@
             </div>
           </div>
         </div>
+        <div class="columns">
+          <div class="column is-2"></div>
+          <div class="column is-4">
+            <div
+              class="card"
+              style="background-color:#424242;"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
+              <div class="card-content">
+                <div class="content">CharterPad</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -594,9 +609,9 @@
                     <Fas i="at" />
                   </span>
                   <span>
-                    <a href="mailto:geraldine.bacang@gmail.com">
-                      geraldine.bacang@gmail.com
-                    </a>
+                    <a href="mailto:geraldine.bacang@gmail.com"
+                      >geraldine.bacang@gmail.com</a
+                    >
                   </span>
                 </div>
                 <div style="display:flex;align-items:center;">
