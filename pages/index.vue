@@ -41,6 +41,8 @@
             >
               <div>
                 <div
+                  v-scroll-to="{ el: '#skills' }"
+                  class="pointer"
                   data-aos="fade-left"
                   data-aos-delay="500"
                   data-aos-duration="500"
@@ -49,9 +51,11 @@
                   <span class="is-uppercase has-text-white-ter">Skills</span>
                 </div>
                 <div
+                  v-scroll-to="{ el: '#experience' }"
                   data-aos="fade-left"
                   data-aos-delay="700"
                   data-aos-duration="500"
+                  class="pointer"
                 >
                   <span class="has-margin-right-10">02</span>
                   <span class="is-uppercase has-text-white-ter"
@@ -59,25 +63,31 @@
                   >
                 </div>
                 <div
+                  v-scroll-to="{ el: '#projects' }"
                   data-aos="fade-left"
                   data-aos-delay="900"
                   data-aos-duration="500"
+                  class="pointer"
                 >
                   <span class="has-margin-right-10">03</span>
                   <span class="is-uppercase has-text-white-ter">Projects</span>
                 </div>
                 <div
+                  v-scroll-to="{ el: '#photos' }"
                   data-aos="fade-left"
                   data-aos-delay="1100"
                   data-aos-duration="500"
+                  class="pointer"
                 >
                   <span class="has-margin-right-10">04</span>
                   <span class="is-uppercase has-text-white-ter">Photos</span>
                 </div>
                 <div
+                  v-scroll-to="{ el: '#contact' }"
                   data-aos="fade-left"
                   data-aos-delay="1300"
                   data-aos-duration="500"
+                  class="pointer"
                 >
                   <span class="has-margin-right-10">05</span>
                   <span class="is-uppercase has-text-white-ter">Contact</span>
@@ -90,7 +100,7 @@
     </section>
 
     <!-- Skills -->
-    <section class="hero is-fullheight has-background-black-ter">
+    <section id="skills" class="hero is-fullheight has-background-black-ter">
       <div class="container is-fluid">
         <div>
           <div class="columns" data-aos="fade-up" data-aos-duration="1000">
@@ -301,7 +311,10 @@
     </section>
 
     <!-- Experience -->
-    <section class="hero is-fullheight has-background-black-ter">
+    <section
+      id="experience"
+      class="hero is-fullheight has-background-black-ter"
+    >
       <div class="container is-fluid">
         <div>
           <div class="columns" data-aos="fade-up" data-aos-duration="1000">
@@ -457,7 +470,7 @@
     </section>
 
     <!-- Projects -->
-    <section class="hero is-fullheight has-background-black-ter">
+    <section id="projects" class="hero is-fullheight has-background-black-ter">
       <div class="container is-fluid">
         <div>
           <div class="columns" data-aos="fade-up" data-aos-duration="1000">
@@ -475,24 +488,57 @@
         </div>
         <div class="columns">
           <div class="column is-2"></div>
-          <div class="column is-4">
-            <div
-              class="card"
-              style="background-color:#424242;"
-              data-aos="fade-up"
-              data-aos-duration="500"
-            >
-              <div class="card-content">
-                <div class="content">CharterPad</div>
-              </div>
-            </div>
+          <div
+            class="column is-3"
+            style="display:flex;justify-content:center;align-items:center;"
+          >
+            <a href="https://charterpad.com/" target="_blank">
+              <figure
+                class="image"
+                style="width:200px;height:200px;display:flex;justify-content:center;align-items:center;"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <img src="/images/charterpad.png" />
+              </figure>
+            </a>
+          </div>
+          <div
+            class="column is-3"
+            style="display:flex;justify-content:center;align-items:center;"
+          >
+            <a href="https://permitpad.com/" target="_blank">
+              <figure
+                class="image"
+                style="width:200px;height:200px;display:flex;justify-content:center;align-items:center;"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <img src="/images/permitpad.png" />
+              </figure>
+            </a>
+          </div>
+          <div
+            class="column is-3"
+            style="display:flex;justify-content:center;align-items:center;"
+          >
+            <a href="https://clickomega.aero/" target="_blank">
+              <figure
+                class="image"
+                style="width:300px;height:300px;display:flex;justify-content:center;align-items:center;"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <img src="/images/omega.png" />
+              </figure>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Photos -->
-    <section class="hero is-fullheight has-background-black-ter">
+    <section id="photos" class="hero is-fullheight has-background-black-ter">
       <div class="container is-fluid">
         <div>
           <div class="columns" data-aos="fade-up" data-aos-duration="1000">
@@ -573,6 +619,7 @@
 
     <!-- Contact -->
     <section
+      id="contact"
       class="hero is-fullheight has-background-black-ter contact-section"
     >
       <div class="container is-fluid">
@@ -606,6 +653,59 @@
                   <span
                     class="icon has-text-white-ter is-small has-margin-right-20"
                   >
+                    <Fab i="github" />
+                  </span>
+                  <span>
+                    <a href="https://github.com/gpbacang" target="_blank"
+                      >@gpbacang</a
+                    >
+                  </span>
+                </div>
+                <div style="display:flex;align-items:center;">
+                  <span
+                    class="icon has-text-white-ter is-small has-margin-right-20"
+                  >
+                    <Fab i="dribbble" />
+                  </span>
+                  <span>
+                    <a href="https://dribbble.com/gpbacang" target="_blank"
+                      >@gpbacang</a
+                    >
+                  </span>
+                </div>
+                <div style="display:flex;align-items:center;">
+                  <span
+                    class="icon has-text-white-ter is-small has-margin-right-20"
+                  >
+                    <Fab i="linkedin-in" />
+                  </span>
+                  <span>
+                    <a
+                      href="https://www.linkedin.com/in/geraldinebacang/"
+                      target="_blank"
+                      >@geraldinebacang</a
+                    >
+                  </span>
+                </div>
+                <div style="display:flex;align-items:center;">
+                  <span
+                    class="icon has-text-white-ter is-small has-margin-right-20"
+                  >
+                    <Fab i="instagram" />
+                  </span>
+                  <span>
+                    <a href="https://www.instagram.com/dinbcng/" target="_blank"
+                      >@dinbcng</a
+                    >
+                  </span>
+                </div>
+                <div
+                  style="display:flex;align-items:center;"
+                  class="has-margin-top-20"
+                >
+                  <span
+                    class="icon has-text-white-ter is-small has-margin-right-20"
+                  >
                     <Fas i="at" />
                   </span>
                   <span>
@@ -618,32 +718,10 @@
                   <span
                     class="icon has-text-white-ter is-small has-margin-right-20"
                   >
-                    <Fab i="github" />
+                    <Fas i="phone" />
                   </span>
-                  <span>
-                    <a href="https://github.com/gpbacang">@gpbacang</a>
-                  </span>
-                </div>
-                <div style="display:flex;align-items:center;">
-                  <span
-                    class="icon has-text-white-ter is-small has-margin-right-20"
-                  >
-                    <Fab i="linkedin-in" />
-                  </span>
-                  <span>
-                    <a href="https://www.linkedin.com/in/geraldinebacang/"
-                      >@geraldinebacang</a
-                    >
-                  </span>
-                </div>
-                <div style="display:flex;align-items:center;">
-                  <span
-                    class="icon has-text-white-ter is-small has-margin-right-20"
-                  >
-                    <Fab i="instagram" />
-                  </span>
-                  <span>
-                    <a href="https://www.instagram.com/dinbcng/">@dinbcng</a>
+                  <span class="has-text-grey">
+                    +971 54 507 0104
                   </span>
                 </div>
               </div>
@@ -669,11 +747,19 @@ export default {
 <style lang="scss">
 .contact-section {
   a {
-    color: #4a4a4a !important;
+    color: #7a7a7a !important;
 
     &:hover {
       color: #ffffff !important;
     }
+  }
+}
+
+.pointer {
+  cursor: pointer;
+
+  &:hover {
+    color: #7a7a7a;
   }
 }
 </style>

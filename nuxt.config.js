@@ -41,7 +41,8 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/style-resources',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    'vue-scrollto/nuxt'
   ],
 
   styleResources: {
@@ -58,7 +59,8 @@ export default {
           'faEnvelope',
           'faGrinWink',
           'faHeart',
-          'faAt'
+          'faAt',
+          'faPhone'
         ]
       },
       {
@@ -70,7 +72,8 @@ export default {
           'faInstagram',
           'faYoutube',
           'faGithub',
-          'faLinkedinIn'
+          'faLinkedinIn',
+          'faDribbble'
         ]
       }
     ]
