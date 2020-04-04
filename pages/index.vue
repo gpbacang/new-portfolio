@@ -33,7 +33,7 @@
                 class="has-text-white-ter is-uppercase is-size-6 has-text-centered-mobile"
                 style="letter-spacing:3px;"
               >
-                Creative Developer | UI/UX Designer
+                Creative Developer | Designer
               </div>
             </div>
             <div
