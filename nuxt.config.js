@@ -27,7 +27,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/preload', { src: '~/plugins/aos', ssr: false }],
+  plugins: [
+    '~/plugins/preload',
+    { src: '~/plugins/aos', ssr: false },
+    { src: '~/plugins/scrollto', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -82,6 +86,7 @@ export default {
    ** Build configuration
    */
   build: {
+    vendor: ['aos', 'scrollto'],
     postcss: {
       preset: {
         features: {
