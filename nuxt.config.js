@@ -29,8 +29,8 @@ export default {
    */
   plugins: [
     '~/plugins/preload',
-    { src: '~/plugins/aos', ssr: false },
-    { src: '~/plugins/scrollto', ssr: false }
+    { src: '~/plugins/aos', mode: 'client' },
+    { src: '~/plugins/scrollto', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules
