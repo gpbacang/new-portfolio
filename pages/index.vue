@@ -519,7 +519,7 @@
                         data-aos="fade-up"
                         data-aos-duration="500"
                       >
-                        <img src="/images/photo1.jpg" />
+                        <img src="/images/photo1.JPG" />
                       </figure>
                     </div>
                     <div class="column is-12">
@@ -528,7 +528,7 @@
                         data-aos="fade-up"
                         data-aos-duration="500"
                       >
-                        <img src="/images/photo5.jpg" />
+                        <img src="/images/photo5.JPG" />
                       </figure>
                     </div>
                   </div>
@@ -541,7 +541,7 @@
                         data-aos="fade-up"
                         data-aos-duration="500"
                       >
-                        <img src="/images/photo2.jpg" />
+                        <img src="/images/photo2.JPG" />
                       </figure>
                     </div>
                     <div class="column is-12">
@@ -550,7 +550,7 @@
                         data-aos="fade-up"
                         data-aos-duration="500"
                       >
-                        <img src="/images/photo6.jpg" />
+                        <img src="/images/photo6.JPG" />
                       </figure>
                     </div>
                   </div>
@@ -561,7 +561,7 @@
                     data-aos="fade-up"
                     data-aos-duration="500"
                   >
-                    <img src="/images/photo3.jpg" />
+                    <img src="/images/photo3.JPG" />
                   </figure>
                 </div>
               </div>
