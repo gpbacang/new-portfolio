@@ -108,7 +108,7 @@
           <div class="columns">
             <div class="column is-2"></div>
             <div
-              class="column is-6 has-padding-left-20 has-text-justified"
+              class="column is-6 has-padding-left-20 has-text-justified has-text-grey"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
@@ -345,7 +345,7 @@
                 <div>Dubai, United Arab Emirates</div>
               </div>
             </div>
-            <div class="column is-7 has-text-justified">
+            <div class="column is-7 has-text-justified has-text-grey">
               <li data-aos="fade-up" data-aos-duration="500">
                 Design and develop the modules' UI for the company platform and
                 web projects
@@ -394,7 +394,7 @@
                 <div>Cebu, Philippines</div>
               </div>
             </div>
-            <div class="column is-7 has-text-justified">
+            <div class="column is-7 has-text-justified has-text-grey">
               <li data-aos="fade-up" data-aos-duration="500">
                 Create applications for the robot named Pepper.
               </li>
@@ -441,7 +441,7 @@
                 <div class="is-size-7">November 2016 - October 2017</div>
               </div>
             </div>
-            <div class="column is-7 has-text-justified">
+            <div class="column is-7 has-text-justified has-text-grey">
               <li data-aos="fade-up" data-aos-duration="500">
                 Design and develop the UI for the project based ASP.Net web
                 applications.
