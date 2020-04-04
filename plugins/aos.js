@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 
 export default ({ app }) => {
   app.AOS = new AOS.init({
-    disable: 'phone'
+    disable: 'phone',
+    startEvent: 'DOMContentLoaded'
   })
 }

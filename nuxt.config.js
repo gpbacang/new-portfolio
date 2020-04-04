@@ -29,8 +29,8 @@ export default {
    */
   plugins: [
     '~/plugins/preload',
-    { src: '~/plugins/aos', mode: 'client' },
-    { src: '~/plugins/scrollto', mode: 'client' }
+    { src: '~/plugins/aos', ssr: false },
+    { src: '~/plugins/scrollto', ssr: false }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -45,8 +45,7 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/style-resources',
-    'nuxt-fontawesome',
-    'vue-scrollto/nuxt'
+    'nuxt-fontawesome'
   ],
 
   styleResources: {
